@@ -63,9 +63,3 @@ git config --global user.email "tu@example.com"
 - Lee los mensajes de error: suelen decir exactamente qué falta.
 - Practica creando ramas, haciendo commits y volviendo a versiones anteriores con `git checkout` y `git log`.
 
-¿Quieres que:
-
-1) Inicialice el repo git aquí y haga el commit inicial por ti, o
-2) Prefieres que te guíe paso a paso mientras lo haces en tu máquina?
-
-Indica la opción y sigo como tu pair-programmer.
