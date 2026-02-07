@@ -1,0 +1,13 @@
+:root{
+  --bg:#f6f8fb;
+  --card:#ffffff;
+  --accent:#0b63d6;
+  --text:#222;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);padding:2rem}
+main{max-width:780px;margin:0 auto;background:var(--card);padding:2rem;border-radius:8px;box-shadow:0 6px 18px rgba(10,10,10,0.06)}
+h1{color:var(--accent);margin-top:0}
+pre{background:#eef6ff;padding:1rem;border-radius:6px;overflow:auto}
+button{background:var(--accent);color:#fff;border:0;padding:0.6rem 1rem;border-radius:6px;cursor:pointer}
+#msg{margin-top:0.6rem;font-weight:600}

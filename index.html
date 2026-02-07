@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Aprender Git y GitHub con VS Code</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Aprender Git y GitHub con Visual Studio Code</h1>
+      <p>Este sitio es un ejemplo práctico y didáctico para aprender a usar <strong>git</strong> y <strong>GitHub</strong> desde <strong>Visual Studio Code</strong>.</p>
+
+      <section>
+        <h2>¿Qué verás aquí?</h2>
+        <ul>
+          <li>Archivos del proyecto (HTML, CSS, JS).</li>
+          <li>Comandos básicos de git para inicializar, commitear y subir al remoto.</li>
+          <li>Guía de uso de la interfaz Git de VS Code y la extensión de GitHub.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Comandos básicos</h2>
+        <pre>
+git init -b main
+git add .
+git commit -m "Initial scaffold: Aprender Git con VSC"
+git remote add origin https://github.com/USERNAME/REPO.git
+git push -u origin main
+        </pre>
+      </section>
+
+      <section>
+        <h2>Actividad rápida</h2>
+        <p>Pulsa el botón para ver un mensaje simulado de "commit" en la consola.</p>
+        <button id="btn">Simular commit</button>
+        <div id="msg" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
